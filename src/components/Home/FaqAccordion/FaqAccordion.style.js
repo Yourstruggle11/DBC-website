@@ -11,13 +11,13 @@ export const useStyles = makeStyles((theme) => ({
         border: '3px solid #F2A365 !important',
         // background: 'red !important',
     },
-    question:{
-        fontFamily: theme.typography.heading.fontFamily,
-        fontStyle: 'normal',
-        fontWeight: '500',
-        fontSize: '1.5rem',
-        color: '#F2A365 !important',
-    },
+    // question:{
+    //     fontFamily: theme.typography.heading.fontFamily,
+    //     fontStyle: 'normal',
+    //     fontWeight: '500',
+    //     fontSize: '1.5rem',
+    //     color: '#F2A365 !important',
+    // },
     AccordionSummary:{
         height:'4rem !important',
         borderRadius:'1rem !important',

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Typography,AccordionDetails ,AccordionSummary,Accordion } from '@mui/material';
+import { Typography } from '@mui/material';
 import {useStyles} from "./FAQ.style"
 import FaqAccordion from '../FaqAccordion';
 import {Faqs} from "./data"
