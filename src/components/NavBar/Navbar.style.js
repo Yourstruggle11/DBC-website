@@ -19,7 +19,6 @@ export const useStyles = makeStyles(() => ({
     navItems: {
       color: '#FE7624 !important',
       flexGrow: 1,
-      fontWeight: 600,
       fontSize: '0.80rem !important', 
       fontWeight: '600 !important',
       margin: '0.3rem 3rem 0 !important',
