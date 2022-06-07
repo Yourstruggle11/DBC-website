@@ -3,14 +3,13 @@ import { makeStyles } from '@mui/styles'
 export const useStyles = makeStyles(() => ({
     BannerMain:{
         width: '100%',
-        height: '100vh',
-        background: '#F6F6F6'
-
+        height: '103vh',
+        background: '#F6F6F6',
     },
     background:{
         width: '100%',
         height:'100%',
-        backgroundSize: '100% 100%',
+        // backgroundSize: '100% 100%',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-Between',
