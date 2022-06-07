@@ -22,3 +22,9 @@
         outline: none !important;
         background-color: #FE7624 !important;
     }
+
+    .Mui-expanded{
+        background-color: #F2A365 !important;
+        color: #fff  !important;
+        border-bottom: none !important;
+    }

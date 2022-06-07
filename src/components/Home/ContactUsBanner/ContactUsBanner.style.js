@@ -83,7 +83,8 @@ export const useStyles = makeStyles((theme) => ({
         fontWeight: '500',
         fontSize: '1rem',
         textrTansform: 'uppercase',
-        marginTop:'5rem'
+        marginTop:'5rem',
+        cursor: 'pointer',
     }
   }))
   

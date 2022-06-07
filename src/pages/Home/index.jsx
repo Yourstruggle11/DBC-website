@@ -7,6 +7,7 @@ import ContactUsBanner from '../../components/Home/ContactUsBanner'
 import Pricing from '../../components/Home/Pricing'
 import BannerTwo from '../../components/Home/BannerTwo'
 import VideoPlayer from '../../components/Home/VideoPlayer'
+import FAQ from '../../components/Home/FAQ'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
     <Pricing />
     <BannerTwo />
     <VideoPlayer />
+    <FAQ />
     </>
   )
 }
