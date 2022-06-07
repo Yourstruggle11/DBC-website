@@ -10,6 +10,7 @@ import VideoPlayer from '../../components/Home/VideoPlayer'
 import FAQ from '../../components/Home/FAQ'
 import UserQuery from '../../components/Home/UserQuery'
 import NewLetters from '../../components/Home/NewLetters'
+import Footer from '../../components/Footer'
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
     <FAQ />
     <UserQuery />
     <NewLetters />
+    <Footer />
     </>
   )
 }
