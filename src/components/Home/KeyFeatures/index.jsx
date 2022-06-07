@@ -20,10 +20,10 @@ export default function KeyFeatures() {
               Key Features
           </Typography>
             </div>
-            <div className={classes.keyfeaturesContainer} heading="Quick and Easy Sharing" footerText="Duis turpis neque, ullamcorper at dolor.">
+            <div className={classes.keyfeaturesContainer}>
                 {cardDate && cardDate.map((currentElement,index)=>{
                     return(
-                        <KeyFeatureCard key={index} image={currentElement.image} heading={ currentElement.heading} footerText={currentElement.footerText} />
+                        <KeyFeatureCard key={index} image={currentElement.image} heading={ currentElement.heading} footertext={currentElement.footerText} />
                     )
                 })}
             </div>

@@ -6,7 +6,6 @@ import {
   } from '@mui/material'
   import { useStyles } from './HeroSection.style'
   import Carousel from 'react-elastic-carousel'
-//   import 'react-multi-carousel/lib/styles.css'
 import HomeAssets from '../../../Assets/Home/HomeAssets.png'
 import Path from '../../../Assets/Home/Path.png'
 
@@ -35,12 +34,13 @@ export default function HeroSection() {
           />
     </div>
     <Carousel infinite breakPoints={breakPoints}>
-    {Banners.map(testimonial =>{
+    {Banners.map((testimonial, index) =>{
         return(
 <div
-        containerx
+        // container
+        key={index}
         justify="space-around"
-        maxWidth="false"
+        // maxWidth="false"
         className={classes.scanFormGridContainer}
       >
         {/* Left Section */}

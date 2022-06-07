@@ -2,7 +2,7 @@ import { Typography } from '@mui/material';
 import React from 'react'
 import {useStyles} from './KeyFeatureCard.style'
 
-export default function KeyFeatureCard({image,heading,footerText}) {
+export default function KeyFeatureCard({image,heading,footertext}) {
     const  classes = useStyles();
   return (
     <>
@@ -12,11 +12,11 @@ export default function KeyFeatureCard({image,heading,footerText}) {
           >
              {heading}
           </Typography>
-          <img src={image} alt={image} srcset="" className={classes.keyFeatureCardImage} />
+          <img src={image} alt={image} className={classes.keyFeatureCardImage} />
           <Typography
             className={classes.keyFeatureCardFooterText}
           >
-              {footerText}
+              {footertext}
           </Typography>
         </div>
     </>

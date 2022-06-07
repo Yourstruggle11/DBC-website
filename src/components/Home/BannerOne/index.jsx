@@ -11,12 +11,12 @@ export default function BannerOne() {
       <div className={classes.BannerMain}>
           <div className={classes.background} style={{background:`url(${Background})`}}>
               <div className={classes.leftSide}>
-              <img src={BannerOneLeft} alt={BannerOneLeft} srcset="" className={classes.BannerOneLeft}/>
+              <img src={BannerOneLeft} alt={BannerOneLeft} className={classes.BannerOneLeft}/>
 
               </div>
               <div className={classes.rightSide}>
-                  <img src={GroupBackground} alt={GroupBackground} srcset="" className={classes.GroupBackground}/>
-                  <img src={Group} alt={Group} srcset="" className={classes.Group}/>
+                  <img src={GroupBackground} alt={GroupBackground} className={classes.GroupBackground}/>
+                  <img src={Group} alt={Group} className={classes.Group}/>
               </div>
           </div>
       </div>
