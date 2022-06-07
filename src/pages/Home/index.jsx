@@ -9,6 +9,7 @@ import BannerTwo from '../../components/Home/BannerTwo'
 import VideoPlayer from '../../components/Home/VideoPlayer'
 import FAQ from '../../components/Home/FAQ'
 import UserQuery from '../../components/Home/UserQuery'
+import NewLetters from '../../components/Home/NewLetters'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
     <VideoPlayer />
     <FAQ />
     <UserQuery />
+    <NewLetters />
     </>
   )
 }
