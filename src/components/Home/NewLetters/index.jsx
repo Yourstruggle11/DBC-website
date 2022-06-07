@@ -3,7 +3,6 @@ import {useStyles} from "./NewLetters.style"
 import Vector from "../../../Assets/NewsLetters/Vector.png"
 import VectorBg from "../../../Assets/NewsLetters/VectorBg.png"
 import { Typography } from '@mui/material'
-import InputUnstyled from '@mui/base/InputUnstyled';
 
 
 export default function NewLetters() {
