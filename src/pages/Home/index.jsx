@@ -5,6 +5,7 @@ import HeroSection from '../../components/Home/HeroSection'
 import KeyFeatures from '../../components/Home/KeyFeatures'
 import ContactUsBanner from '../../components/Home/ContactUsBanner'
 import Pricing from '../../components/Home/Pricing'
+import BannerTwo from '../../components/Home/BannerTwo'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
     <BannerOne />
     <ContactUsBanner />
     <Pricing />
+    <BannerTwo />
     </>
   )
 }
