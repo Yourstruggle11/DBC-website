@@ -6,6 +6,7 @@ import KeyFeatures from '../../components/Home/KeyFeatures'
 import ContactUsBanner from '../../components/Home/ContactUsBanner'
 import Pricing from '../../components/Home/Pricing'
 import BannerTwo from '../../components/Home/BannerTwo'
+import VideoPlayer from '../../components/Home/VideoPlayer'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
     <ContactUsBanner />
     <Pricing />
     <BannerTwo />
+    <VideoPlayer />
     </>
   )
 }
