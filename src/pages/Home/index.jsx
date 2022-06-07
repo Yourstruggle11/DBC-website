@@ -8,6 +8,7 @@ import Pricing from '../../components/Home/Pricing'
 import BannerTwo from '../../components/Home/BannerTwo'
 import VideoPlayer from '../../components/Home/VideoPlayer'
 import FAQ from '../../components/Home/FAQ'
+import UserQuery from '../../components/Home/UserQuery'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
     <BannerTwo />
     <VideoPlayer />
     <FAQ />
+    <UserQuery />
     </>
   )
 }
