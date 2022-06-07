@@ -1,5 +1,6 @@
 import { makeStyles } from '@mui/styles'
 
+
 export const useStyles = makeStyles((theme) => ({
     keyfeatureMain:{
         width: '100%',
@@ -23,7 +24,7 @@ export const useStyles = makeStyles((theme) => ({
     keyfeaturesContainer:{
         width: '100%',
         height: '100%',
-        margin:'2rem 0rem',
+        // margin:'2rem 0rem',
         padding: '0rem 8rem',
         display: 'flex',
         flexWrap: 'wrap',
