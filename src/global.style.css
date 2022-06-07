@@ -1,0 +1,24 @@
+.rec.rec-arrow:disabled {
+    visibility: hidden;
+}
+
+.rec.rec-arrow {
+    border-radius: 50%;
+    border: none !important;
+    outline: none !important;
+    background: transparent !important;
+}
+.rec.rec-arrow:hover {
+
+    background-color: #FE7624 !important;
+}
+
+.rec .rec-dot {
+    /* outline: 1px solid #FE7624; */
+    outline: none !important;
+    background-color: #C4C4C4 !important;
+}
+    .rec .rec-dot_active {
+        outline: none !important;
+        background-color: #FE7624 !important;
+    }
