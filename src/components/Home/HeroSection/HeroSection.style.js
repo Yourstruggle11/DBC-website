@@ -27,7 +27,7 @@ export const useStyles = makeStyles((theme) => ({
       position: 'relative',
     },
     leftPara: {
-        maxWidth: '35rem',
+      maxWidth: '35rem',
       marginTop: theme.spacing(3),
       marginBottom: theme.spacing(3),
       fontFamily: theme.typography.heading.fontFamily,
@@ -37,6 +37,7 @@ export const useStyles = makeStyles((theme) => ({
       position: 'relative',
       top: '0.8vw',
       textAlign: 'justify',
+      lineHeight: '3.5rem !important',
     },
     DBCHeading: {
     fontSize:'2.5rem',
