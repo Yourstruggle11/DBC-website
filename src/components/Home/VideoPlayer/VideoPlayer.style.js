@@ -41,6 +41,7 @@ videoPlayer:{
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
+    marginTop:'5rem'
 },
 VideoPlayerOverLay:{
     width:'40rem',

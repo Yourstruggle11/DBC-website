@@ -37,12 +37,12 @@ export default function Footer() {
         <div className={classes.footerLower}>
           <div className={classes.footerContent}>
           <Toolbar style={{zIndex:'5'}}>
-                  {/* Nav Header */}
+                  {/* Footer Header */}
                   <Typography variant="body2" className={classes.footerLogo}>
                   copyright@2022.Inc
               </Typography>
           <div className={classes.allFooterItems}>
-            {/* ---------------Desktop View Nav items-------------------------- */}
+            {/* ---------------Desktop View footer items-------------------------- */}
 
               <Typography variant="body2" className={classes.footerItems}>
               How it works
@@ -55,7 +55,7 @@ export default function Footer() {
               <Typography variant="body2" className={classes.footerItems}>
               Terms of Services
               </Typography>
-            {/* ---------------End of  Desktop View Nav items-------------------------- */}
+            {/* ---------------End of  Desktop View footer items-------------------------- */}
           </div>
      </Toolbar>
           </div>

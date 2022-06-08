@@ -22,6 +22,7 @@ export const useStyles = makeStyles(() => ({
       fontSize: '0.80rem !important', 
       fontWeight: '600 !important',
       margin: '0.3rem 3rem 0 !important',
+      cursor: 'pointer',
     },
     navItems_Contact_us: {
         width: '11rem',
@@ -32,6 +33,7 @@ export const useStyles = makeStyles(() => ({
          alignItems: 'center',
          justifyContent: 'center',
          color: '#F5F5F5 !important',
+          cursor: 'pointer',
     },
   }))
   

@@ -65,7 +65,7 @@ export const useStyles = makeStyles((theme) => ({
         color: "#000000 !important",
     },
     detailsContainer:{
-        width: "80%",
+        width: "70%",
         marginLeft:'1rem'
     },
     details:{
