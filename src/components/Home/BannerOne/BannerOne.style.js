@@ -12,7 +12,7 @@ export const useStyles = makeStyles(() => ({
         // backgroundSize: '100% 100%',
         display: 'flex',
         alignItems: 'center',
-        backgroundRepeat: 'no-repeat',
+        backgroundRepeat: 'no-repeat !important',
         justifyContent: 'space-Between',
     },
     leftSide:{
