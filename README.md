@@ -5,7 +5,7 @@
 
 
 
-## This is a React Static websitesite (Only desktop view).
+## This is a simple Static websitesite using React and Mui (Only desktop view).
 
  # NOTE
 
