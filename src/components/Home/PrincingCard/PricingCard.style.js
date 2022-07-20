@@ -42,6 +42,7 @@ export const useStyles = makeStyles((theme) => ({
         textTransform: 'uppercase',
         color:'#F5F5F5',
         borderRadius:'1rem',
+        cursor:'pointer',
     }
   }))
   
