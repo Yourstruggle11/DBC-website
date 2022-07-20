@@ -1,6 +1,6 @@
 # Welcome To DBC-Website
 
-<img src="./src/assets/readme/ss.jpeg" /> <br /><br />
+<img src="https://raw.githubusercontent.com/Yourstruggle11/DBC-website/main/src/Assets/readme/ss.jpeg?token=GHSAT0AAAAAABMVZ32DIFPVVW6VLI4TI25IYWYJETQ" /> <br /><br />
 
 
 
